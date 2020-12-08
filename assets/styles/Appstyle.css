@@ -1,16 +1,26 @@
-body {
-    background-color: rgb(179, 228, 243)
-}
-
-.website-todo {
-    width: 400px;
-    height: 100px;
+.mainbox {
+    display: flex;
     justify-content: center;
-    background-color: rgb(223, 155, 219)
-}
-
-.website-todo > p {
-    font-size: 38px;
-  font-weight: 600;
+    height: 100vh;
+    padding: 80px 0;
+    overflow-y: scroll;
+    background-color: #eff0ea;
+  }
   
-}
+  .mainbox2 {
+    position: relative;
+    width: 400px;
+    height: 50px;
+    padding: 0px 0px;
+    box-shadow: 0px 3px 7px 3px #d5d5d5;
+    background-color: #c593e4;
+  }
+
+  .mainbox3 {
+    position: relative;
+    width: 400px;
+    height: 50px;
+    padding: 0px 0px;
+    box-shadow: 0px 3px 7px 3px #d5d5d5;
+    background-color: #c593e4;
+  }
