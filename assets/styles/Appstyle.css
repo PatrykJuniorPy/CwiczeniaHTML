@@ -1,3 +1,16 @@
 body {
     background-color: rgb(179, 228, 243)
 }
+
+.website-todo {
+    width: 400px;
+    height: 100px;
+    justify-content: center;
+    background-color: rgb(223, 155, 219)
+}
+
+.website-todo > p {
+    font-size: 38px;
+  font-weight: 600;
+  
+}
