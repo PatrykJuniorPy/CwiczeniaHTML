@@ -28,9 +28,8 @@
 
 
   .napis > p {
+    display: inline-block;
     font-size: 17px;
-    display: flex;
-    justify-content: center;
     font-weight: 600;
     color: white;
     margin: 15px;
