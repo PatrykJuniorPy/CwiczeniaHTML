@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularze</title>
+</head>
+<body>
+    <h1>Wypełnij formularz, aby zakupić auto marzeń!</h1>
+        <form action="/some/relative/url" method="post">
+            <p>
+                <label for="firstname"> Imię: </label>
+                <input type="text" name="firstname" id="firstname" />
+            </p>
+            <p>
+                <label for="lastname"> Nazwisko: </label>
+                <input type="text" name="lastname" id="lastname" />
+            </p>
+            <p> 
+                <label for="adres email"> Adress email: </label>
+                <input type="text" name="adres email" id="adres email" />
+            </p>
+                <label for="region"> Województwo: </label>
+            <p>
+                <label for="province">Łódzkie</label>
+                <select name="province" id="province">
+                    <option value="łódzkie">Łódzkie</option>
+                    <option value="dolnośląskie">Dolnośląskie</option>
+                    <option value="opolskie">Opolskie</option>
+                </select>   
+            </p>
+            <p>
+            <button type="submit">Wyślij</button> <button type="reset">Wyczyść</button>
+            </p>
+        </form>
+</body>
+</html>
