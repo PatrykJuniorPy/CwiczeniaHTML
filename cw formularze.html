@@ -6,31 +6,27 @@
     <title>formularze</title>
 </head>
 <body>
-    <h1>Wypełnij formularz, aby zakupić auto marzeń!</h1>
+    <h1>Formularz kontaktowy</h1>
         <form action="/some/relative/url" method="post">
             <p>
                 <label for="firstname"> Imię: </label>
                 <input type="text" name="firstname" id="firstname" />
-            </p>
-            <p>
                 <label for="lastname"> Nazwisko: </label>
                 <input type="text" name="lastname" id="lastname" />
             </p>
             <p> 
-                <label for="adres email"> Adress email: </label>
-                <input type="text" name="adres email" id="adres email" />
+                <label for="datetime"> Data uordzenia: </label>
+                <input type="date" name="datetime" id="datetime" />
             </p>
-                <label for="region"> Województwo: </label>
-            <p>
-                <label for="province">Łódzkie</label>
-                <select name="province" id="province">
-                    <option value="łódzkie">Łódzkie</option>
-                    <option value="dolnośląskie">Dolnośląskie</option>
-                    <option value="opolskie">Opolskie</option>
-                </select>   
+                <label for="sex"> Płeć: </label>
+                <input type="radio"> Męzczyzna </input>
+                <input type="radio"> Kobieta </input>
             </p>
             <p>
-            <button type="submit">Wyślij</button> <button type="reset">Wyczyść</button>
+                <textarea style="margin: 0px; width: 348px; height: 104px;">Tutaj wpisz swoje uwagi</textarea>
+            </p>
+            <p>
+            <button type="submit">Wyślij zgłoszenie</button>
             </p>
         </form>
 </body>
