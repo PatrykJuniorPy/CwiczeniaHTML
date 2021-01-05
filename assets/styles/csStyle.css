@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(22, 43, 230);
 }
 * {
     color: #ffff
@@ -14,4 +14,8 @@ body {
 .list {
     margin-left: 20px;
     
+}
+
+.border {
+    color: black;
 }
