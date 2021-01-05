@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz zadanie</title>
+</head>
+<body>
+    <h1>Pomoz nam wybrac dla ciebie auto</h1>
+    <form method="post" action="#" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Podstawowe dane</legend>
+            <p>
+                <label for="marka"> Marka:</label>
+                <select id="marka">
+                    <option value="">--wybierz swoją markę--</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="bmw">Bmw</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="toyota">Toyota</option>
+                </select>
+            </p>
+            <p>
+                <label>Typ:
+                <input type="radio" name="type" value=sedan>Sedan</input>
+                <input type="radio" name="type" value=suv>SUV</input>
+                <input type="radio" name="type" value=combi>Combi</input>
+            </p>
+        </fieldset>
+        <fieldset>
+            <label>Preferencje</label>
+            <p>
+                <label for="year">Rok produkcji:
+                <input type="number" id="year" value="2020" placeholder="Podaj akceptowalny rok produkcji"/>
+                </label>
+            </p>
+            <p>
+                <label>Kolor nadwozia:</label><br>
+                    <input type="checkbox" name="color" value="zielony"> Zielony<br>
+                    <input type="checkbox" name="color" value="czerwony"> Czerwony<br>
+                    <input type="checkbox" name="color" value="zolty"> Żółty<br>
+                    <input type="checkbox" name="color" value="czarny metalik"> Czarny metalik<br>
+            </p>
+            <p>
+                <label for="photo">Dodaj zdjecie twojego wymarzonego auta: 
+                <input type="file" id="photo" name="photo" accept="image/*"/>
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <p>
+                <label>Wyslij</label>
+                <button type="submit">Wyslij</button>
+                <button type="reset">Wyczyść</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
