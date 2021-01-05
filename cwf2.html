@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz z dyskusją</title>
+    <style> 
+        li {
+             margin: 10px 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Włącz się w dyskusję!</h1>
+    <hr>
+    <ol style="list-style-type: none">
+        <li>
+            <b>Michał:</b>
+            <i>Który język programowania wybrać?</i>
+            <pre>+1501</pre>
+            <form method="post" action="#">
+                <button type="submit" name="1" value="1">+1</button>
+                <button type="submit" name="1" value="-1">-1</button>
+            </form>
+            <form>
+                <textarea rows="6" cols="60" name="answer-1">Wpisz swoją odpowiedz</textarea>
+                <button type="submit" name="dodaj">Dodaj</button>
+            </form>
+        </li>
+        <ol style="list-style-type: none">
+            <li>
+                <b>Tomek:</b>
+                <i>Programowanie jest przereklamowane! Naucz się czegoś innego? Może testowanie apek?</i>
+                <pre>+3</pre>
+                <form method="post" action="#">
+                    <button type="submit" name="11" value="-1">+1</button>
+                    <button type="submit" name="11" value="-1">-1</button>
+                    <a href="#">Dodaj odpowiedź</a>
+                </form>
+            </li> 
+            <li>
+                <b>Heniek:</b>
+                <i>Teraz modny jest Rust - koniecznie zacznij od tego!</i>
+                <pre>-170</pre>
+                <form method="post" action="#">
+                    <button type="submit" name="12" value="-1">+1</button>
+                    <button type="submit" name="12" value="-1">-1</button>
+                    <a href="#">Dodaj odpowiedź</a>
+                </form>
+            </li>
+            <ol style="list-style-type: none">
+                <li>
+                    <b>Marta:</b>
+                    <i>To sprobuj znalezc w Polsce pierwsza pracę z tym językiem ;)</i>
+                    <pre>+109</pre>
+                    <form method="post" action="#">
+                        <button type="submit" name="11" value="-1">+1</button>
+                        <button type="submit" name="11" value="-1">-1</button>
+                        <a href="#">Dodaj odpowiedź</a>
+                    </form>
+                </li>
+            </ol>
+            <li>
+                <b>Sandra:</b>
+                <i>Wybierz Javę!</i>
+                <pre>+1896</pre>
+                <form method="post" action="#">
+                    <button type="submit" name="121" value="-1">+1</button>
+                    <button type="submit" name="121" value="-1">-1</button>
+                    <a href="#">Dodaj odpowiedź</a>
+                </form>
+            </li>        
+        </ol>
+    </ol>  
+</body>
+</html>
