@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+* {
+    color: #ffff
+}
+.head {
+    margin-top: 20px;
+    margin-left: 10px;
+    FONT-SIZE: 40px;
+    font-weight: 600;
+}
+
+.list {
+    margin-left: 20px;
+    
+}
